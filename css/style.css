@@ -301,6 +301,11 @@ h2 {
     text-align: center;
 }
 
+.cardButton:hover {
+    background-color: rgb(230, 62, 62);
+    transform: scale(1.03);
+}
+
 .cardButton a {
     text-decoration: none;
     color: #000000ff;
@@ -480,7 +485,7 @@ h2 {
 .productSubtitle {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    width: 500px;
+    width: 90%;
     color: #2f4550ff;
     margin-bottom: 10px;
 }
@@ -510,6 +515,11 @@ h2 {
     margin-left: 10px;
     text-align: center;
     text-decoration: none;
+}
+
+.productButton:hover {
+    background-color: rgb(230, 62, 62);
+    transform: scale(1.03);
 }
 
 .productButton a {
@@ -625,6 +635,34 @@ h2 {
         gap: 25px;
     }
 
+    .product {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "productPhoto" 
+        "productSpecs"
+        ;
+    }
+
+    .productPhoto {
+        margin: 10px;
+        margin-right: 0px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .productSpecs {
+        justify-content: center;
+        margin: 20px;
+        width: 100%;
+    }
+
+    .productSubtitle {
+        width: 90%;
+    }
+
     }
 
 /* MOBILE */
@@ -693,6 +731,37 @@ h2 {
     .contactBox iframe {
         width: 100%;
     }
+
+/* Producto */
+
+    .product {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "productPhoto" 
+        "productSpecs"
+        ;
+    }
+
+    .productPhoto {
+        margin: 10px;
+        margin-right: 0px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .productSpecs {
+        justify-content: center;
+        margin: 20px;
+        width: 100%;
+    }
+
+    .productSubtitle {
+        width: 90%;
+    }
+
 
 /* FOOTER */
 
