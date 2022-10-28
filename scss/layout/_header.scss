@@ -1,0 +1,116 @@
+
+header {
+    background-color: #000000ff;
+    flex: 0 0 auto;
+  }
+
+  .flexNavBar {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 250px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #f4f4f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    a {
+      text-decoration: none;
+      color: #f4f4f9ff;
+    }
+  }
+  
+  .logoImagen {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+  }
+  
+  .navBar {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #f4f4f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+  
+      a {
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;
+        color: #f4f4f9ff;
+        white-space: nowrap;
+        text-align: center;
+  
+        &:hover {
+          color: #b8dbd9ff;
+          font-size: 27px;
+        }
+      }
+    }
+  }
+
+  .banner {
+    height: 210px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    img {
+      height: 210px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  .brandBar {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    li {
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      a {
+        padding: 3px;
+      }
+    }
+  }
+  
+  .brandImg {
+    width: 60px;
+    height: 30px;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+  }

@@ -1,0 +1,36 @@
+
+@media (max-width: 768px) {
+    .cardFlex {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    .footerBoxFlex {
+      gap: 25px;
+    }
+  
+    .product {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "productPhoto" "productSpecs";
+    }
+  
+    .productPhoto {
+      margin: 10px;
+      margin-right: 0px;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .productSpecs {
+      justify-content: center;
+      margin: 20px;
+      width: 100%;
+    }
+  
+    .productSubtitle {
+      width: 90%;
+    }
+  }

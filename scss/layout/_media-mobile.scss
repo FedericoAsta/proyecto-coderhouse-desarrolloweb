@@ -1,0 +1,95 @@
+
+@media (max-width: 576px) {
+    /* HEADER */
+  
+    .navBar li {
+      width: 100%;
+    }
+  
+    .logo {
+      width: 100%;
+      border-style: solid;
+      border-top: #000000ff;
+      border-left: #000000ff;
+      border-right: #000000ff;
+      margin-bottom: 10px;
+    }
+  
+    .brandBar, .banner {
+      display: none;
+    }
+  
+    /* CARDS */
+  
+    .cardFlex {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .productBoxFlex {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    /* FORM */
+  
+    .contactFlex {
+      margin: 0px;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .contactForm {
+      width: 100%;
+  
+      form {
+        input, .consulta {
+          width: 100%;
+        }
+      }
+    }
+  
+    .contactBox {
+      margin: 10px;
+  
+      iframe {
+        width: 100%;
+      }
+    }
+  
+    /* Producto */
+  
+    .product {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "productPhoto" "productSpecs";
+    }
+  
+    .productPhoto {
+      margin: 10px;
+      margin-right: 0px;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .productSpecs {
+      justify-content: center;
+      margin: 20px;
+      width: 100%;
+    }
+  
+    .productSubtitle {
+      width: 90%;
+    }
+  
+    /* FOOTER */
+  
+    .footerBoxFlex {
+      height: 300px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "footerBox1" "footerBox2" "footerBox3";
+    }
+  }

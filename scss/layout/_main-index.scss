@@ -1,0 +1,77 @@
+
+.cardFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .card {
+    background-color: white;
+    width: 220px;
+    height: 330px;
+    margin: 20px;
+    padding: 10px;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .cardImg {
+    text-align: center;
+    padding: 1px;
+    width: 200px;
+    height: 190px;
+  }
+  
+  .cardText {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #2f4550ff;
+    text-align: center;
+    margin: 6px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardPrice {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #000000ff;
+    text-align: center;
+    margin: 6px;
+  }
+  
+  .cardButton {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #b8dbd9ff;
+    color: #000000ff;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5%;
+    margin-left: 10px;
+    text-align: center;
+  
+    &:hover {
+      background-color: rgb(230, 62, 62);
+      transform: scale(1.03);
+    }
+  
+    a {
+      text-decoration: none;
+      color: #000000ff;
+  
+      p {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
