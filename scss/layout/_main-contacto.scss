@@ -15,30 +15,30 @@
   }
   
   .contactInfo p {
-    font-family: 'Oswald', sans-serif;
+    font-family: $font-2, sans-serif;
     font-size: 17px;
-    color: #2f4550ff;
+    color: $color-alt;
     margin: 10px;
     margin-bottom: 10px;
     text-align: center;
   }
   
   .contactForm {
-    font-family: 'Bebas Neue', cursive;
-    color: #000000ff;
+    font-family: $font-1, cursive;
+    color: $color-fondo;
     margin: 10px;
     width: 600px;
   
     form {
       h2 {
-        font-family: 'Bebas Neue', cursive;
-        color: #000000ff;
+        font-family: $font-1, cursive;
+        color: $color-fondo;
       }
   
       input {
-        font-family: 'Oswald', sans-serif;
-        color: #000000ff;
-        background-color: #b8dbd9ff;
+        font-family: $font-2, sans-serif;
+        color: $color-fondo;
+        background-color: $color-seleccion;
         font-size: 15px;
         width: 600px;
         margin-top: 5px;
@@ -46,25 +46,19 @@
       }
   
       .consulta {
-        font-family: 'Oswald', sans-serif;
-        color: #000000ff;
-        background-color: #b8dbd9ff;
-        font-size: 15px;
-        width: 600px;
+        @extend input;
         height: 400px;
-        margin-top: 5px;
-        margin-bottom: 5px;
         text-align: start;
       }
   
       .button {
         width: 100px;
-        background-color: #b8dbd9ff;
+        background-color: $color-seleccion;
       }
     }
   }
   
   .map {
     border-style: solid;
-    border-color: #000000ff;
+    border-color: $color-fondo;
   }

@@ -23,16 +23,16 @@
   }
   
   .productTitle {
-    font-family: 'Bebas Neue', cursive;
+    font-family: $font-1, cursive;
     font-size: 30px;
     margin-bottom: 10px;
   }
   
   .productSubtitle {
-    font-family: 'Oswald', sans-serif;
+    font-family: $font-2, sans-serif;
     font-size: 20px;
     width: 90%;
-    color: #2f4550ff;
+    color: $color-alt;
     margin-bottom: 10px;
   }
   
@@ -44,16 +44,16 @@
   }
   
   .productPrice {
-    font-family: 'Bebas Neue', cursive;
+    font-family: $font-1, cursive;
     color: red;
     font-size: 30px;
     width: 100px;
   }
   
   .productButton {
-    font-family: 'Bebas Neue', cursive;
-    background-color: #b8dbd9ff;
-    color: #000000ff;
+    font-family: $font-1, cursive;
+    background-color: $color-seleccion;
+    color: $color-fondo;
     font-size: 30px;
     width: 100px;
     height: 40px;
@@ -69,19 +69,19 @@
   
     a {
       text-decoration: none;
-      color: #000000ff;
+      color: $color-fondo;
     }
   }
   
   .productSpecsTitle {
-    font-family: 'Bebas Neue', cursive;
-    color: #000000ff;
+    font-family: $font-1, cursive;
+    color: $color-fondo;
     font-size: 25px;
   }
   
   .productSpecsBody {
-    font-family: 'Oswald', sans-serif;
+    font-family: $font-2, sans-serif;
     font-size: 18px;
-    color: #2f4550ff;
+    color: $color-alt;
     margin-bottom: 20px;
   }

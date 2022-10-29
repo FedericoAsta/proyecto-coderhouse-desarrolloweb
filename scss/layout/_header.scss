@@ -1,6 +1,6 @@
 
 header {
-    background-color: #000000ff;
+    background-color: $color-fondo;
     flex: 0 0 auto;
   }
 
@@ -15,16 +15,16 @@ header {
   
   .logo {
     width: 250px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $font-1, cursive;
     font-size: 25px;
-    color: #f4f4f9ff;
+    color: $color-contraste;
     display: flex;
     align-items: center;
     justify-content: center;
   
     a {
       text-decoration: none;
-      color: #f4f4f9ff;
+      color: $color-contraste;
     }
   }
   
@@ -37,9 +37,9 @@ header {
   .navBar {
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $font-1, cursive;
     font-size: 25px;
-    color: #f4f4f9ff;
+    color: $color-contraste;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,14 +55,14 @@ header {
       a {
         list-style-type: none;
         text-decoration: none;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $font-1, cursive;
         font-size: 25px;
-        color: #f4f4f9ff;
+        color: $color-contraste;
         white-space: nowrap;
         text-align: center;
   
         &:hover {
-          color: #b8dbd9ff;
+          color: $color-seleccion;
           font-size: 27px;
         }
       }
@@ -88,7 +88,7 @@ header {
   .brandBar {
     list-style: none;
     text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $font-1, cursive;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

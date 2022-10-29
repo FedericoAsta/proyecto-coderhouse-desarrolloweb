@@ -1,12 +1,12 @@
 
 footer {
-    background-color: #000000ff;
-    font-family: 'Bebas Neue', cursive;
+    background-color: $color-fondo;
+    font-family: $font-1, cursive;
     flex: 0 0 auto;
   }
 
   .footerBoxFlex {
-    background-color: #000000ff;
+    background-color: $color-fondo;
     width: 100%;
     height: 100px;
     padding: 3px;
@@ -32,14 +32,14 @@ footer {
   }
   
   .footerBox {
-    background-color: #000000ff;
-    font-family: 'Bebas Neue', cursive;
+    background-color: $color-fondo;
+    font-family: $font-1, cursive;
     margin: 10px;
     text-align: center;
   }
   
   .footerBoxTitulo {
-    color: #b8dbd9ff;
+    color: $color-seleccion;
     font-size: 20px;
     margin-bottom: 5px;
     text-align: center;
@@ -49,14 +49,14 @@ footer {
   .footerBoxLista ul li {
     list-style: none;
     text-decoration: none;
-    color: #f4f4f9ff;
+    color: $color-contraste;
     text-align: center;
     white-space: nowrap;
   
     a {
       list-style: none;
       text-decoration: none;
-      color: #f4f4f9ff;
+      color: $color-contraste;
       margin-left: 5px;
       margin-right: 5px;
       text-align: center;
@@ -83,7 +83,7 @@ footer {
       text-align: center;
   
       a:hover {
-        color: #b8dbd9ff;
+        color: $color-seleccion;
         transform: scale(1.05);
       }
     }

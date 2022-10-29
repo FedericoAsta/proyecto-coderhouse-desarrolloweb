@@ -28,9 +28,9 @@
   }
   
   .cardText {
-    font-family: 'Oswald', sans-serif;
+    font-family: $font-2, sans-serif;
     font-size: 15px;
-    color: #2f4550ff;
+    color: $color-alt;
     text-align: center;
     margin: 6px;
     height: 40px;
@@ -40,17 +40,17 @@
   }
   
   .cardPrice {
-    font-family: 'Bebas Neue', cursive;
+    font-family: $font-1, cursive;
     font-size: 25px;
-    color: #000000ff;
+    color: $color-fondo;
     text-align: center;
     margin: 6px;
   }
   
   .cardButton {
-    font-family: 'Bebas Neue', cursive;
-    background-color: #b8dbd9ff;
-    color: #000000ff;
+    font-family: $font-1, cursive;
+    background-color: $color-seleccion;
+    color: $color-fondo;
     font-size: 20px;
     width: 100px;
     height: 30px;
@@ -65,7 +65,7 @@
   
     a {
       text-decoration: none;
-      color: #000000ff;
+      color: $color-fondo;
   
       p {
         height: 30px;
