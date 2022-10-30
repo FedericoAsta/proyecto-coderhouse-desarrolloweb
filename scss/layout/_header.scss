@@ -5,11 +5,9 @@ header {
   }
 
   .flexNavBar {
-    display: flex;
     width: 100%;
+    @include flexbox (center,center);
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     text-align: center;
   }
   
@@ -18,9 +16,7 @@ header {
     font-family: $font-1, cursive;
     font-size: 25px;
     color: $color-contraste;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexbox (center,center);
   
     a {
       text-decoration: none;
@@ -40,16 +36,12 @@ header {
     font-family: $font-1, cursive;
     font-size: 25px;
     color: $color-contraste;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox (center,center);
     text-align: center;
     flex-wrap: wrap;
   
     li {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flexbox (center,center);
       width: 150px;
   
       a {
@@ -73,15 +65,11 @@ header {
     height: 210px;
     width: 100%;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox (center,center);
   
     img {
       height: 210px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flexbox (center,center);
     }
   }
   
@@ -89,16 +77,12 @@ header {
     list-style: none;
     text-decoration: none;
     font-family: $font-1, cursive;
-    display: flex;
+    @include flexbox (center,center);
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
   
     li {
       width: 120px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flexbox (center,center);
   
       a {
         padding: 3px;
