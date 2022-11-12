@@ -68,7 +68,7 @@ header {
     @include flexbox (center,center);
   
     img {
-      height: 210px;
+      height: 200px;
       @include flexbox (center,center);
     }
   }
